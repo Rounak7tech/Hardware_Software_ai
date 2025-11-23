@@ -1,0 +1,16 @@
+# Ignore system files/folders
+node_modules/
+venv/
+__pycache__/
+*.log
+*.tmp
+.DS_Store
+
+# Ignore everything not explicitly included
+/*
+
+# Keep these project folders/files tracked!
+!/backend/
+!/Hardware_Software_ai/
+!*.md
+!.gitignore
